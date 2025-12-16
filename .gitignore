@@ -1,0 +1,24 @@
+# Node dependencies
+node_modules/
+.next/
+out/
+build/
+
+# Python / AI Model Caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.local
+
+# Ignore large model files and HuggingFace cache
+models/
+.cache/huggingface/
+*.bin
+*.pt
+*.safetensors
+
+# OS / IDE
+.DS_Store
+.vscode/
